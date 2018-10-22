@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+* { -moz-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+
+body {
+    
+    margin: 0;
+    padding: 20px;
+    /*background: url("assets/tausta.jpg") no-repeat;*/
+    background: linear-gradient(-45deg, red, black) no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    box-sizing: border-box;
+    
+}
+
+
+
+/*YLEISET MÄÄRITYKSET*/
+
+h1 {
+    
+    font-family: Fjalla One, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    
+}
+
+p {
+
+    color: white;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin: 10px 0;
+
+}
+
+.nappulat a {
+    
+    text-decoration: none;
+    background: #262626;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 1.2em;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    box-shadow: 0 6px 0px 0.1px black;
+    
+}
+
+
+.nappulat a:hover {
+
+    margin-top: 6px;
+    transition: 400ms;
+    box-shadow: 0 0 0 0;
+
+}
+
+.nappulat {
+    
+    width: 100%;
+    text-align: center;
+    margin: 35px 0;
+    
+}
+
+/*---YLEISET MÄÄRITYKSET LOPPUU---*/
+
+
+
+header {
+    
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+
+.logo {
+    
+    height: auto;
+    width: 150px;
+    
+}
+
+.kuvake img {
+
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+
+}
+
+.kuvakkeet a:focus {
+
+    border: 2px solid red;
+    transition: 400ms;
+
+}
+
+
+.kuvakkeet a {
+
+    width: 100%;
+    border: 2px solid transparent;
+
+}
+
+.rivi {
+
+    text-align: center;
+    background: #262626;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0 6px 0px 0.1px black;
+
+}
+
+.rivi:nth-child(1) {
+
+    margin-bottom: 15px;
+
+}
+
+
+/*
+
+.kuvake.instagram {
+    
+    background: url("assets/instagram.png");
+    background-size: cover;
+    
+}
+
+.kuvake.facebook {
+    
+    background: url("assets/facebook.png");
+    background-size: cover;
+    
+}
+
+.kuvake.outlook {
+    
+    background: url("assets/outlook.png");
+    background-size: cover;
+    
+}
+
+.kuvake.nuvan-sivut-kontiolahti {
+    
+    background: url("assets/konanuva_kontiolahti.png");
+    background-size: cover;
+    
+}
+
+.kuvake.demokratia {
+    
+    background: url("assets/demokratia-fi.png");
+    background-size: cover;
+    
+}
+
+.kuvake.nuva-info {
+    
+    background: url("assets/nuvainfo.png");
+    background-size: cover;
+    
+}
+
+*/
+
+
+
+/*Piilottaa webhostin mainoksen*/
+
+a[href*="https://www.000webhost.com"] {
+    
+    display: none;
+    
+}
